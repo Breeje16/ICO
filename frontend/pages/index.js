@@ -1,4 +1,3 @@
-
 import { BigNumber, Contract, providers, utils } from "ethers";
 import Head from "next/head";
 import React, { useEffect, useRef, useState } from "react";
@@ -405,10 +404,6 @@ export default function Home() {
           <img className={styles.image} src="./0.svg" />
         </div>
       </div>
-
-      <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
-      </footer>
     </div>
   );
 }
